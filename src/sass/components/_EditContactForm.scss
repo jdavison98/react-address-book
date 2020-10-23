@@ -1,0 +1,35 @@
+@import '../main.scss';
+
+// body :target {
+//     filter: blur(2px);
+// }
+
+.Edit-Contact-Form-Container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    z-index: 1;
+    position: fixed;
+        top: 20%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+
+.Edit-Contact-Form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: min-content;
+    background-color: $light-gray;
+    border: 5px inset black;
+    box-shadow: 0px 0px 20px 10000px rgba(0, 0, 0, 0.8);
+    padding: 30px 30px;
+    position: relative;
+    
+    input {
+        width: 300px;
+    }
+}

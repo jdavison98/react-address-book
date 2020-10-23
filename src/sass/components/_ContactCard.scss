@@ -1,0 +1,35 @@
+@import '../main.scss';
+
+.Contact-Card {
+    text-align: left;
+    background: $light-gray;
+    max-width: fit-content;
+    min-width: 400px;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 0 0 0;
+    border: 5px inset $gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 5px black;
+    position: relative;
+    
+    * {
+        margin: 0;
+        color: black;
+    }
+
+    .Contact-Buttons {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        * {
+            margin-left: 2px;
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+    }
+}    
+
+address {
+    padding: 10px 0;
+}
